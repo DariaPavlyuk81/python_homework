@@ -1,0 +1,5 @@
+One of my main challenges was working with CSS selectors and Xpath expressions. Sometimes elements are nested deeply and it makes it very tricky to write selectors.
+Its very difficult to find the selectord that targets the right elements.
+Xpaths also ver difficult, I had to watch quite a few videos on You Tube to understand how to get the right one.
+Also, it was challenging to understand why people do web scraping - but then i did some extra research and i understand that people 
+extract useful information from websites in a nautomated way and it allows gathering large amounts of data quickly for the research, analysis

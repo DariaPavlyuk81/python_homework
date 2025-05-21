@@ -1,0 +1,86 @@
+Which sections of the website are restricted for crawling?
+# advertising-related bots:
+User-agent: Mediapartners-Google*
+Disallow: /
+
+# Wikipedia work bots:
+User-agent: IsraBot
+Disallow:
+
+User-agent: Orthogaffe
+Disallow:
+
+# Some bots are known to be trouble, particularly those designed to copy
+# entire sites. Please obey robots.txt.
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+Some specific paths and some bots are restricted for crawling because they tend to download entire websites
+and also some areas might contain sensitive information, internal tools, and admin features athat shouldnt be indexed or scraped.
+Restrictive access helps keep those areas hidden from public search engines and not so good behaving bots.
+
+Are there specific rules for certain user agents?
+# Some bots are known to be trouble, particularly those designed to copy
+# entire sites. Please obey robots.txt.
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+
+These are the specific bots/user -agents: they are not allowed to crawl some sites and download the entire site.
+
+Reflect on why websites use robots.txt 
+
+Websites use robots.txt to communicate with web crawlers and bots about which parts of the site they are allowed to access or restricted from visiting.
+This helps to manage server load, protect sensitive or irrelevant content from being indexed, and maintain control oever how the
+content is accessed. Data scrapers engage in ethical scraping, ensuring they do not harm a sites performance or violate its usage policices.
