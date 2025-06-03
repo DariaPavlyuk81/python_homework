@@ -1,0 +1,15 @@
+function: say_hello
+  positional parameters: none
+  keyword parameters: none
+  return: None
+----------------------------------------
+function: accepts_positional
+  positional parameters: [10, 20, 30]
+  keyword parameters: none
+  return: True
+----------------------------------------
+function: accepts_keywords
+  positional parameters: none
+  keyword parameters: {'name': 'Alice', 'age': 30}
+  return: <function logger_decorator at 0x101147560>
+----------------------------------------
